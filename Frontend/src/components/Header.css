@@ -1,0 +1,103 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    z-index: 3;
+    background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-left: 40px;
+}
+
+button
+{
+    cursor: pointer;
+    border: none;
+    background-color: #0376b8;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.4rem 1.4rem;
+}
+
+button:disabled
+{
+    background-color: gray;
+    cursor: default;
+}
+
+button:disabled:hover
+{
+    color: #fff;
+    opacity: 1;
+}
+
+button:hover, button:active
+{
+    color: black;
+    opacity: 0.85;
+}
+
+
+.alt
+{
+    background-color: white;
+    border: 2px solid #0376b8;
+    color: #0376b8;
+}
+
+.logo
+{
+    max-width: 250px;
+}
+
+.btn
+{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.name
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.name:hover
+{
+    color: #0179ca;
+}
+
+@media (max-width: 500px)
+{
+    .header
+    {
+        padding-left: 20px;
+    }
+
+    .logo
+    {
+        max-width: 100px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    
+    .btn
+    {
+        margin-top: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-bottom: 20px;
+        gap: 10px;
+    }   
+}

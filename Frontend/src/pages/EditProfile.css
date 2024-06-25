@@ -1,0 +1,15 @@
+.form-edit
+{
+    width: 35%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-edit
+{
+    margin-top: 10px;
+}

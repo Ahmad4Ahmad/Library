@@ -1,0 +1,43 @@
+.search-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.search
+{
+    padding: 6px;
+    border: none;
+    font-size: 16px;
+    width: 40%;
+    border-radius: 5px 0 0 5px;
+}
+
+.search:focus
+{
+    outline: none;
+    border-left: 2px solid #0179ca;
+    border-top: 2px solid #0179ca;
+    border-bottom: 2px solid #0179ca;
+}
+
+.search:focus ~ svg
+{
+    border-top: 2px solid #0179ca;
+    border-right: 2px solid #0179ca;
+    border-bottom: 2px solid #0179ca;
+}
+
+.search-container svg 
+{
+    float: right;
+    padding: 2px 6px;
+    margin-right: 16px;
+    background: white;
+    font-size: 47px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}

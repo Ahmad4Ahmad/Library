@@ -1,0 +1,42 @@
+.modal-container
+{
+    max-width: 30%;
+    width: 100%;
+}
+
+.modal-header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(156, 154, 154);
+    border-bottom: solid 1px black;
+    border-radius: 8px 8px 0 0;
+    padding: 10px;
+}
+
+.modal-body
+{
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal-body > p
+{
+    padding: 10px;
+}
+
+.modal-footer
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.modal-footer > button:not(.alt)
+{
+    background-color: rgb(206, 25, 13);
+}

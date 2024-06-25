@@ -1,0 +1,38 @@
+.uploads
+{
+    display: flex;
+    width: 60%;
+    margin: 20px auto 0 auto;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.booklist-item
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.booklist-item a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.booklist-item a:hover
+{
+    color: #0179ca;
+}
+
+.booklist-item p
+{
+    margin-top: 6px;
+}
+
+.delete
+{
+    margin-right: 4px;
+}

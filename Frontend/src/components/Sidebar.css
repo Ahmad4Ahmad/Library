@@ -1,0 +1,78 @@
+.sidebar
+{
+    height: 100%;
+    width: 200px;
+    background-color: #f2f0e7;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 74px;
+    overflow-x: hidden;
+    box-shadow: 10px 0 10px -6px rgba(0,0,0,.25);
+    border-radius: 0 3px 0 0;
+    color: #333;
+}
+
+.bar-item
+{
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+
+.bar .bar-item
+{
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.button 
+{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.button 
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.button:disabled 
+{
+    cursor: not-allowed;
+    opacity: 0.3
+}
+
+.bar .button 
+{
+    white-space: normal
+}
+
+.button:hover 
+{
+    color: #000;
+    background-color: #ccc;
+}

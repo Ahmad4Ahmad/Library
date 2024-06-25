@@ -1,0 +1,98 @@
+.form-container
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 450px;
+    margin-top: 100px;
+    border-radius: 5px;
+    border: 3px solid gray;
+    padding: 5px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.form-control
+{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.form-control input, .form-control label
+{
+    display: block;
+    width: 100%;
+}
+
+.form-control label
+{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control input, .form-control textarea
+{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-control textarea
+{
+    width: 100%;
+}
+
+.form-control input:focus, .form-control textarea:focus
+{
+    outline: none;
+    border-color: black;
+}
+
+.form-btn
+{
+    width: 80%;
+}
+
+.fail 
+{
+    background-color: #ffcccb;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+.note
+{
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    color: #999;
+    margin: 20px 0 0 0;
+    font-weight: 500;
+    width: 90%;
+}
+
+.note a
+{
+    color: #0179ca;
+    text-decoration: none;
+}
+
+.note a:hover
+{
+    text-decoration: underline;
+}
+
+form > h2
+{
+    text-align: center;
+    font-weight: 400;
+}

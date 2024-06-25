@@ -1,0 +1,380 @@
+@font-face
+{
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+.book
+{
+    min-height: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top: 150px;
+    right: 0;
+    z-index: 1;
+}
+
+.top
+{
+    max-width: 1296px;
+    margin: 0 auto;
+    min-height: 56px;
+    position: relative;
+}
+
+.poster-card
+{
+    position: absolute;
+    right: 0;
+    top: 48px;
+}
+
+.poster
+{
+    border-width: 0;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);
+    border-radius: 4px;
+    background-size: contain;
+    width: 196px;
+    height: 314px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    vertical-align: baseline;
+    margin: 10px 10px;
+    padding: 0;
+}
+
+.shadow
+{
+    filter: drop-shadow(14px 14px 10px grey);
+    cursor: default;
+}
+
+.title-card
+{
+    display: inline-flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    -moz-box-pack: end;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.title
+{
+    font-family: "Google Sans", "Roboto", Arial, sans-serif;
+    line-height: 2rem;
+    font-size: 2.5rem;
+    letter-spacing: 0;
+    font-weight: 500;
+    align-items: flex-end;
+    display: flex;
+    overflow-wrap: anywhere;
+    width: 100%;
+    word-break: keep-all;
+    text-transform: capitalize;
+}
+
+.details-card
+{
+    margin-top: 20px;
+}
+
+.author span
+{
+    color: #0179ca;
+    cursor: pointer;
+}
+
+.author a
+{
+    text-decoration: none;
+}
+
+.detail
+{
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: .00625em;
+    font-weight: 500;
+}
+
+.detail:not(:first-child)
+{
+    padding-top: 7px;
+}
+
+.detail:not(:first-child) > span
+{
+    color: rgb(95,99,104);
+}
+
+.detail > span, .detail > a > span
+{
+    text-transform: capitalize;
+}
+
+.pages-card
+{
+    height: 64px;
+    margin: 16px 0 24px -24px;
+    padding: 12px 0;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    overflow: auto;
+}
+
+.pages
+{
+    padding: 0 16px;
+    position: relative;
+    min-width: 96px;
+}
+
+.number
+{
+    fill: rgb(32,33,36);
+    stop-color: rgb(32,33,36);
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1.25rem;
+    font-size: .875rem;
+    letter-spacing: .0178571429em;
+    font-weight: 500;
+    -moz-box-align: center;
+    align-items: center;
+    display: -moz-box;
+    display: flex;
+    height: 24px;
+    -moz-box-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.word
+{
+    fill: rgb(95,99,104);
+    stop-color: rgb(95,99,104);
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1rem;
+    font-size: .75rem;
+    letter-spacing: .025em;
+    font-weight: 400;
+    -moz-box-align: center;
+    align-items: center;
+    display: flex;
+    height: 20px;
+    -moz-box-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.btns
+{
+    -moz-box-align: unset;
+    align-items: unset;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    justify-content: space-between;
+    width: 224px;
+}
+
+.bottom
+{
+    max-width: 1296px;
+    margin: 0 auto;
+    min-height: 56px;
+    position: relative;
+}
+
+.about
+{
+    padding-top: 20px;
+    width: 40%;
+    display: block;
+}
+
+.about-header
+{
+    color: rgb(32,33,36);
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1rem;
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.about-body
+{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: .875rem; 
+    font-weight: 400;
+    letter-spacing: .0142857143em;
+    line-height: 1.25rem;
+    -webkit-line-clamp: 6;
+    max-height: 7.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.review-form
+{
+    margin-top: 20px;
+    width: 45%;
+}
+
+.review-form > button
+{
+    width: 25%;
+}
+
+.reviews
+{
+    padding-top: 20px;
+    width: 100%;
+    display: block;
+}
+
+.reviews-number
+{
+    color: rgb(95,99,104);
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1rem;
+    font-size: .75rem;
+    letter-spacing: .025em;
+    font-weight: 400;
+    margin-top: .5rem;
+}
+
+.reviews-header
+{
+    padding-bottom: 20px;
+    color: rgb(32,33,36);
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    font-weight: 500;
+    display: -moz-box;
+    display: flex;
+    -moz-box-pack: justify;
+    align-items: center;
+}
+
+.reviews-list
+{
+    color: rgb(95,99,104);
+    font-size: .875rem;
+    font-weight: 400;
+    letter-spacing: .0142857143em;
+    line-height: 1.25rem;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.review
+{
+    padding: 16px 0;
+}
+
+.review-header
+{
+    display: grid;
+    -moz-box-align: center;
+    align-items: center;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(2,max-content);
+}
+
+.user-img
+{
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.user-name
+{
+    color: rgb(32,33,36);
+    font-size: .875rem;
+    font-weight: 400;
+    letter-spacing: .0142857143em;
+    line-height: 1.25rem;
+}
+
+.review-date
+{
+    color: rgb(95,99,104);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: .025em;
+    line-height: 1rem;
+    margin-left: 1ch;
+    margin-top: 16px;
+}
+
+.review-body
+{
+    margin-top: 8px;
+    font-size: .875rem;
+    letter-spacing: .0142857143em;
+    line-height: 1.25rem;
+    overflow-wrap: anywhere;
+    width: 50%;
+}
+
+.review-body > hr
+{
+    margin-top: 15px;
+    background-color: rgb(128, 128, 128);
+    border: 0;
+    height: 0.9px;
+}
+
+.see-all
+{
+    color: #0179ca;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: .875rem;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+    padding: 0 8px 0 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-width: 64px;
+    border: none;
+    outline: none;
+    line-height: inherit;
+    user-select: none;
+    -moz-user-select: none;
+    overflow: visible;
+    vertical-align: middle;
+}
+
+.see-all:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.all-reveiws
+{
+    margin-top: 70px;
+}
